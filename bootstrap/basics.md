@@ -93,6 +93,102 @@
 
    🔹 Use `btn btn-primary` for a **Bootstrap styled button**.
 
+
+   // TABLE
+   Perfect Lakshmi 🙌 — you’ve now built a **Bootstrap styled table** with all the right elements! Let me quickly explain each **syntax + use case** so you can remember them clearly:
+
+---
+
+### 🔎 Code Explanation
+
+1. **Responsive Table Wrapper**
+
+```html
+<div class="table-responsive">
+```
+
+✅ Makes the table **scroll horizontally on small screens** (important for mobile).
+
+---
+
+2. **Bootstrap Table Base Class**
+
+```html
+<table class="table">
+```
+
+✅ The main Bootstrap table class — adds spacing, padding, and base styling.
+
+---
+
+3. **Extra Table Classes**
+
+* `table-bordered` → Adds borders around all cells.
+* `table-hover` → Highlights row when hovered.
+* `table-danger` → Makes the table background red-tinted (danger theme).
+
+Example:
+
+```html
+<table class="table table-bordered table-hover table-danger">
+```
+
+---
+
+4. **Table Header Styling**
+
+```html
+<thead class="table-dark">
+```
+
+✅ Makes header row have a **dark background with white text**.
+
+---
+
+5. **Row Group Divider**
+
+```html
+<tbody class="table-group-divider">
+```
+
+✅ Adds a **horizontal dividing line** between rows for clarity.
+
+---
+
+6. **Table Content**
+
+```html
+<tr>
+  <td>Lakshmi</td>
+  <td>K</td>
+  <td>21</td>
+</tr>
+```
+
+✅ Normal row data inside `<tbody>`.
+
+---
+
+### 🚀 Quick Syntax Cheat Sheet (Bootstrap Table)
+
+| Syntax                | Use Case                            |
+| --------------------- | ----------------------------------- |
+| `table`               | Base Bootstrap table                |
+| `table-bordered`      | Adds borders                        |
+| `table-striped`       | Adds zebra stripes                  |
+| `table-hover`         | Highlight row on hover              |
+| `table-dark`          | Dark themed header/body             |
+| `table-danger`        | Red tinted table (contextual)       |
+| `table-responsive`    | Makes table scroll on small screens |
+| `table-group-divider` | Divider between rows                |
+
+---
+
+👉 If you combine these, you can build **professional-looking tables** very fast.
+
+Would you like me to show you how to add **row colors individually** (like only making one row `table-success` and another `table-warning`)?
+
+
 ---
 
 👉 If you **remember just these 8 syntaxes**, you can build **any kind of Bootstrap form**.
