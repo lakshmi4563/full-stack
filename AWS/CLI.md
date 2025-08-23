@@ -106,6 +106,7 @@ Instead of using the AWS Management Console (web-based UI), you can run commands
 
 It allows both scripting and automation of AWS tasks.
 
+
 🔹 Key Features
 
 Cross-platform – Works on Windows, macOS, and Linux.
