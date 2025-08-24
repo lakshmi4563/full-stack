@@ -99,3 +99,6 @@ AWS provides SDKs for different programming languages & services. Some examples:
 ---
 
 Would you like me to also **create a small last-minute revision chart (mind map / table)** so you can glance at it 5 mins before the exam?
+
+
+The AWS SDK (Software Development Kit) provides language-specific APIs, libraries, and tools that allow developers to build applications (web, mobile, gaming, backend services, etc.) that interact with AWS services programmatically.
