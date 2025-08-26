@@ -260,3 +260,134 @@ d) None of the above
 ---
 
 👉 Do you want me to now create a **“harder scenario-based set” (20 questions)** from the same Module 1 (e.g., “Your EC2 needs S3 access, which IAM entity to use?”) — like exam-style practice?
+
+
+
+
+Perfect 👍 Let’s extend **Module 1 MCQs** to cover the missing parts:
+
+---
+
+# 🔹 **Additional MCQs for Full Coverage**
+
+---
+
+## **IAM Inline vs Managed Policies**
+
+**21. What is the main difference between an Inline Policy and a Managed Policy in AWS IAM?**
+a) Inline policies can be reused across multiple users, managed policies cannot
+b) Managed policies are standalone, inline policies are embedded directly into a user, group, or role
+c) Inline policies are automatically updated by AWS, managed policies are not
+d) Both are identical in functionality
+
+**Answer:** b
+**Reason:**
+
+* **Inline Policy** → Attached directly to a single IAM entity (user/group/role).
+* **Managed Policy** → Standalone policy that can be attached to multiple entities (AWS-managed or customer-managed).
+
+---
+
+**22. Which type of policy should you prefer for reusable permissions across multiple users?**
+a) Inline Policy
+b) Managed Policy
+c) Both
+d) None
+
+**Answer:** b
+**Reason:** Managed policies (especially customer-managed) allow **reuse and easier updates** across multiple IAM entities. Inline policies are **tightly coupled** to one entity.
+
+---
+
+## **IAM Policy Structure**
+
+**23. Which element in an IAM policy defines whether the action is allowed or denied?**
+a) Action
+b) Effect
+c) Resource
+d) Condition
+
+**Answer:** b
+**Reason:** **Effect** specifies `"Allow"` or `"Deny"`. Without `"Allow"`, the default is **Deny**.
+
+---
+
+**24. In the IAM policy structure, what does the “Action” element specify?**
+a) Which AWS services and operations are affected
+b) The resources to which permissions apply
+c) Whether the request is allowed or denied
+d) Conditions for access
+
+**Answer:** a
+**Reason:** `"Action"` specifies operations like `"s3:ListBucket"`, `"ec2:StartInstances"`.
+
+---
+
+**25. In IAM policies, what is the purpose of the “Resource” element?**
+a) Specifies services used
+b) Defines which AWS resources (ARNs) the policy applies to
+c) Adds MFA requirements
+d) Denies access by default
+
+**Answer:** b
+**Reason:** `"Resource"` defines **ARNs (Amazon Resource Names)**, e.g., `"arn:aws:s3:::mybucket"`.
+
+---
+
+**26. Which policy element allows defining conditions such as MFA or IP restrictions?**
+a) Action
+b) Effect
+c) Condition
+d) Resource
+
+**Answer:** c
+**Reason:** `"Condition"` defines **extra restrictions** like requiring MFA, IP address, or time of access.
+
+---
+
+## **AWS Local Zones – Use Cases**
+
+**27. Which of the following is the BEST use case for AWS Local Zones?**
+a) Training large AI models in batch mode
+b) Running latency-sensitive gaming applications
+c) Storing long-term archives
+d) Hosting AWS billing reports
+
+**Answer:** b
+**Reason:** Local Zones are designed for **low-latency use cases** like **gaming, AR/VR, video streaming**.
+
+---
+
+**28. A video production company needs real-time rendering with minimal delay. Which AWS option should they consider?**
+a) AWS Glacier
+b) AWS Local Zones
+c) AWS Lambda
+d) AWS Wavelength
+
+**Answer:** b
+**Reason:** **Local Zones** bring compute close to customers, ideal for **media rendering**.
+
+---
+
+**29. Which type of application is NOT a good fit for AWS Local Zones?**
+a) Hybrid applications requiring low-latency to on-prem systems
+b) Video rendering workloads in metro areas
+c) Long-term archival and backup
+d) Gaming applications needing millisecond latency
+
+**Answer:** c
+**Reason:** **Archival & backup** is storage-heavy but **not latency-sensitive**, so Local Zones are not needed.
+
+---
+
+# ✅ Now Module 1 Coverage Includes:
+
+* **AWS SDK** ✔️
+* **AWS CLI** ✔️
+* **AWS Management Console** ✔️
+* **AWS Local Zones (definition, storage, Wavelength difference, use cases)** ✔️
+* **IAM (Intro, access management, policies, inline vs managed, policy structure, role creation, evaluation logic)** ✔️
+
+---
+
+👉 Would you like me to now **merge everything (all 30 MCQs with answers + reasons)** into a **single clean PDF/Word file** for your revision?
